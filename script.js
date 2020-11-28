@@ -67,7 +67,6 @@ function calculate() {
       amountEl2.value = (amountEl1.value * rates).toFixed(2);
     });
 }
-
 amountEl1.addEventListener("input", calculate);
 amountEl2.addEventListener("input", calculate);
 
